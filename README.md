@@ -1,5 +1,5 @@
 # fabric-geotracker
-# Flujo de datos de rutas GPS de principio a fin y análisis con Fabric, PySpark y Power BI.
+# Flujo de datos de ruta GPS de end-to-end y análisis con Fabric, PySpark y Power BI.
 ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-Data%20Engineering-blue)
 ![PySpark](https://img.shields.io/badge/PySpark-Delta%20Lake-orange)
 ![Power BI](https://img.shields.io/badge/Power%20BI-DirectLake-yellow)
@@ -39,3 +39,7 @@ El pipeline sigue la arquitectura Medallón (*Bronze*, *Silver*, *Gold*) utiliza
        ▼
        
  📊 POWER BI     ──► Visualización interactiva mediante conexión DirectLake: mapa, gráfico circular y tabla.
+
+ ## Captura de pantalla de Panel Power BI con DirectLake
+
+ ![Product_Screenshot](powerbi/powerbi.png)
