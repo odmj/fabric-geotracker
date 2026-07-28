@@ -40,6 +40,8 @@ El pipeline sigue la arquitectura Medallón (*Bronze*, *Silver*, *Gold*) utiliza
        
  📊 POWER BI     ──► Visualización interactiva mediante conexión DirectLake: mapa, gráfico circular y tabla.
 
+
  ## Captura de pantalla de Panel Power BI con DirectLake
+
 
  ![Product_Screenshot](fabric-geotracker/powerbi/powerbi.png)
