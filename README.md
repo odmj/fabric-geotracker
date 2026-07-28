@@ -28,6 +28,7 @@ El pipeline sigue la arquitectura Medallón (*Bronze*, *Silver*, *Gold*) utiliza
        
  🥈 CAPA SILVER  ──► Limpieza de ruido (filtrado < 5 km/h, eliminación de data recogida en días de descanso), desduplicación
                      e imputación/interpolación matemática de puntos perdidos (puntos no recogidos por pérdida de señal o no activación de la apk). Aplicación de la Fórmula de Haversine para obtener distancias relativas y así determinar                         velocidades medidas.
+                     
        │
        ▼
        
