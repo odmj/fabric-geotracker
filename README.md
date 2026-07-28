@@ -10,6 +10,8 @@
 Este proyecto implementa una solución **End-to-End de Ingeniería de Datos** en **Microsoft Fabric** para procesar, limpiar, reconstruir y visualizar datos de geolocalización obtenidos mediante la aplicación de móvil geotracker durante un viaje en coche por Europa.
 El objetivo principal fue transformar lecturas de GPS reales (con imprecisiones, descuidos que dan lugar a datos poco relevantes, paradas no deseadas y pérdidas temporales de señal) en un modelo de datos optimizado para análisis analítico y visualización interactiva.
 
+El código se implementa en Python (notebook.ipynb). Todo el código se implementa en el mismo notebook, independientemente de si pertenece a la creación de la capa silver o el desarrollo de la última capa (gold).
+
 ---
 
 ## 🏗️ Arquitectura de Datos (Medallion Architecture)
