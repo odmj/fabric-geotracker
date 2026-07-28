@@ -33,7 +33,8 @@ El pipeline sigue la arquitectura Medallón (*Bronze*, *Silver*, *Gold*) utiliza
        
  🥇 CAPA GOLD    ──► Agregaciones diarias (Distancia total, Velocidad media real,
                      Tiempo activo en movimiento, Desnivel acumulado)
+                     
        │
        ▼
        
- 📊 POWER BI     ──► Visualización interactiva mediante conexión DirectLake
+ 📊 POWER BI     ──► Visualización interactiva mediante conexión DirectLake: mapa, gráfico circular y tabla.
