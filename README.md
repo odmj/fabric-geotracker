@@ -18,17 +18,22 @@ El objetivo principal fue transformar lecturas de GPS reales (con imprecisiones,
 El pipeline sigue la arquitectura Medallón (*Bronze*, *Silver*, *Gold*) utilizando **Delta Lake** y procesado distribuido con **PySpark**:
 
 [ Archivos .GPX ]
+
        │
        ▼
  🥉 CAPA BRONZE  ──► Ingesta de datos crudos (Latitud, Longitud, Elevación, Timestamp)
+     
        │
        ▼
+       
  🥈 CAPA SILVER  ──► Limpieza de ruido (filtrado < 5 km/h, eliminación de data recogida en días de descanso), desduplicación
                      e imputación/interpolación matemática de puntos perdidos (puntos no recogidos por pérdida de señal o no activación de la apk). Aplicación de la Fórmula de Haversine para obtener distancias relativas y así determinar                         velocidades medidas.
        │
        ▼
+       
  🥇 CAPA GOLD    ──► Agregaciones diarias (Distancia total, Velocidad media real,
                      Tiempo activo en movimiento, Desnivel acumulado)
        │
        ▼
+       
  📊 POWER BI     ──► Visualización interactiva mediante conexión DirectLake
