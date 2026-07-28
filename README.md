@@ -1,4 +1,3 @@
-# fabric-geotracker
 # Flujo de datos de ruta GPS de end-to-end y análisis con Fabric, PySpark y Power BI.
 ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-Data%20Engineering-blue)
 ![PySpark](https://img.shields.io/badge/PySpark-Delta%20Lake-orange)
