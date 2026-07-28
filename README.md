@@ -46,3 +46,7 @@ El pipeline sigue la arquitectura Medallón (*Bronze*, *Silver*, *Gold*) utiliza
 
 
  ![Product_Screenshot](fabric-geotracker/powerbi/powerbi.png)
+
+
+ ## Autor
+ Jorge Olleros
